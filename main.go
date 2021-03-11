@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/kmwamasali/hellogopher/stringutils"
 )
 
 const state = "Maryland"
@@ -10,7 +12,7 @@ var name string
 
 func main() {
 
-	name = "Kevin"
+	name = stringutils.Upper("Kevin")
 	from := `Kampala`
 	var n int = 5
 
